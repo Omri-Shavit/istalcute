@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600&display=swap');
+
+body {
+    background-color: #303030;
+    overflow: hidden;
+}
+
+.message{
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 90vw;
+    height: 20vh;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 5em;
+    transform: translateY(200%);
+    /*display: none;*/
+    transition: transform 1s cubic-bezier(0, 0, 0.2, 1);
+}
